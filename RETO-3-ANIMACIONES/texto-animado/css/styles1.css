@@ -1,0 +1,30 @@
+body{
+    background-image: url(../imagenes/sky.jpg);
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+
+
+}
+   
+.numer1 {
+    animation-name: yo;
+    animation-duration: 6s;
+    position: relative;
+    animation-iteration-count: infinite;
+    
+}
+.numer2{
+    animation-name: yo;
+    animation-duration: 7s;
+    position: relative;
+    animation-iteration-count: infinite;
+
+}
+@keyframes yo{
+    0%   { margin-left:-1000%; }
+
+    100%  {margin-left:780%; }
+    }
+
+    

@@ -1,0 +1,96 @@
+*{
+    font-family: 'alfa slab one', cursive;
+    animation-duration: 4s;
+    font-size: 2rem;
+    background:#2c333a;
+    text-align: center;
+    animation-name: movimiento, ;
+    margin-top: 30px;
+    animation-delay: 2s;
+    position: relative;
+
+}
+@keyframes letras {
+
+    from{
+        background:#2c333a;
+    }
+
+    to {
+        background: #64a5da;
+    }
+
+}
+@keyframes movimiento{
+
+    80%{
+        transform: rotatex(-180deg);
+
+    }
+}
+.ler1{
+    height: 2em;
+    animation-name: movimiento;
+    color: #80bfb2;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    display: inline-block;
+
+}
+.ler2{
+    height: 2em;
+    color: #8898a2;
+    animation-name: movimiento;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    letter-spacing: 6px;
+    display: inline-block;
+
+}
+.ler3{
+    height: 2em;
+    color: #80bfb2;
+    animation-name: movimiento;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    letter-spacing: 6px;
+    display: inline-block;
+
+}
+.ler4{
+    height: 2em;
+    color: #8898a2;
+    animation-name: movimiento;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    display: inline-block;
+
+}
+.ler5{
+    height: 2em;
+    color: #80bfb2;
+    animation-name: movimiento;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    display: inline-block;
+
+}
+.ler6{
+    height: 2em;
+    color: #8898a2;
+    animation-name: movimiento;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    display: inline-block;
+
+}
+.ler7{
+    height: 2;
+    color: #80bfb2;
+    animation-name: movimiento;
+    animation-duration: 8s;
+    animation-iteration-count: 15s;
+    animation-timing-function: linear;
+    display: inline-block;
+
+}
